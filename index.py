@@ -43,3 +43,17 @@ def division(a: int, b: int):
 def loops(n):
     for number in range(n):
         print(pow(number, 2))
+
+# Write a Function
+
+
+def is_leap(year):
+    leap = False
+
+    # Write your logic here
+    if year % 4 == 0 and year % 100 == 0 and year % 400 != 0:
+        return leap
+    elif year % 4 == 0:
+        leap = True
+
+    return leap
