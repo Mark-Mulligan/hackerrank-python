@@ -57,3 +57,13 @@ def is_leap(year):
         leap = True
 
     return leap
+
+
+# Print Function
+if __name__ == '__main__':
+    n = int(raw_input())
+
+    result = ''
+    for numbers in range(n):
+        result += str(numbers + 1)
+    print(result)
