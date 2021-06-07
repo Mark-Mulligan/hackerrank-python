@@ -61,9 +61,18 @@ def is_leap(year):
 
 # Print Function
 if __name__ == '__main__':
-    n = int(raw_input())
+    n = int(input())
 
     result = ''
     for numbers in range(n):
         result += str(numbers + 1)
     print(result)
+
+# List Comprehensions
+
+
+def create_list(x, y, z, n):
+    print(n)
+
+
+print(create_list(2, 2, 2, 2))
